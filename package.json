@@ -10,7 +10,7 @@
   "scripts": {
     "build": "strapi build",
     "develop": "strapi develop",
-    "export": "./script.sh && strapi export --no-encrypt --file my-strapi-export",
+    "export": "strapi export --no-encrypt --file my-strapi-export && ./script.sh",
     "start": "strapi start",
     "strapi": "strapi"
   },
